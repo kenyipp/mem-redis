@@ -1,0 +1,40 @@
+{
+	"name": "mem-redis",
+	"author": "Ken Yip <ken20206@gmail.com> (https://kenyip.cc)",
+	"contributors": [
+		"Ken Yip <ken20206@gmail.com> (https://kenyip.cc)"
+	],
+	"version": "1.0.2",
+	"private": false,
+	"description": "A function wrapper on `mem` module which using `redis` as the cache store",
+	"main": "./lib/index.js",
+	"scripts": {
+		"test": "jest lib/mem.spec.js"
+	},
+	"keywords": [
+		"mem",
+		"memcached",
+		"cache",
+		"memoize"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"md5": "^2.3.0",
+		"mimic-fn": "^3.1.0",
+		"redis": "^3.0.2"
+	},
+	"devDependencies": {
+		"delay": "^4.4.0"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenyipp/mem-redis.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kenyipp/mem-redis/issues"
+	},
+	"homepage": "https://github.com/kenyipp/mem-redis#readme"
+}
